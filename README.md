@@ -11,13 +11,6 @@ Check out the live version of the website [here](https://react-college-website.v
 Here's a sneak peek of what the website looks like:
 ![Educational Institution Website](./public/preview.png)
 
-### 📚 Features
-
-- **About Us:** An overview of the institution's mission, vision, and vlues with a visually appealing layout.
-- **Blog:** A dynamic blog section that allows users to explore articles and updates related to the institutions.
-- **Courses:** A dedicated section displaying the courses offered, with detailed descriptions and easy navigation.
-- **Contact Us:** A contact form and information section, enabling users to easily get in touch.
-
 ### 🛠️ Tech Stack
 
 - **Frontend:** React.js
@@ -26,6 +19,6 @@ Here's a sneak peek of what the website looks like:
 
 ---
 
-Thank you for checking out the Educational Institution Website! If you find this project helpful, please consider giving it a ⭐.
+Thank you for checking out, If you find this project helpful, please consider giving it a ⭐.
 
 ---
