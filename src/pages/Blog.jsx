@@ -1,10 +1,7 @@
+import React from "react";
+
 const Blog = () => {
-  return (
-    <div>
-      <h1>Our Blog</h1>
-      <p>Read our latest news and updates.</p>
-    </div>
-  );
+  return <div>Blog</div>;
 };
 
 export default Blog;

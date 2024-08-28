@@ -1,0 +1,29 @@
+/* CTA (call to action) Section Styles */
+.cta {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/images/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.cta a {
+  text-decoration: none;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .cta h1 {
+    font-size: 22px;
+  }
+}
