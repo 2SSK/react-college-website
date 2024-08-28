@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./Cta.css";
 
 const Cta = () => {
@@ -8,7 +10,9 @@ const Cta = () => {
         <br />
         Anywhere From The World
       </h1>
-      <a href="/">CONTACT US</a>
+      <Link to="/contact" className="hero-btn">
+        CONTACT US
+      </Link>
     </section>
   );
 };

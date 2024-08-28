@@ -1,9 +1,9 @@
 import Header from "../components/Header/Header";
 import Courses from "../components/Courses/Courses";
-import Footer from "../components/Footer/Footer";
 import Facilities from "../components/Facilities/Facilities";
-import Testimonials from "../components/Testimonials/Testimonials";
 import Cta from "../components/Cta/Cta";
+import Testimonials from "../components/Testimonials/Testimonials";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
       <Header />
       <Courses />
       <Facilities />
-      <Testimonials />
       <Cta />
+      <Testimonials />
       <Footer />
     </>
   );

@@ -6,6 +6,10 @@
   padding-top: 100px;
 }
 
+.testimonials h1 {
+  font-size: 2rem;
+}
+
 .testimonial-col {
   flex-basis: 44%;
   border-radius: 10px;
@@ -24,18 +28,30 @@
   border-radius: 50%;
 }
 
+.testimonials p,
 .testimonial-col p {
   padding: 0;
+  font-size: 1.1rem;
 }
 
 .testimonial-col h3 {
   margin-top: 15px;
   text-align: left;
+  font-size: 1.5rem;
 }
 
-.testimonial-col .fas,
-.far {
+.stars {
+  display: flex;
+}
+
+.filled-star {
   color: #f44336;
+}
+
+.empty-star {
+  color: transparent;
+  stroke: #f44336;
+  stroke-width: 1;
 }
 
 /* Responsive styles for smaller screens */

@@ -25,26 +25,14 @@ const Footer = () => {
       </p>
 
       <div className="icons">
-        <i className="fab fa-facebook-f">
-          <FontAwesomeIcon icon={faFacebookF} />
-        </i>
-        <i className="fab fa-twitter">
-          <FontAwesomeIcon icon={faTwitter} />
-        </i>
-        <i className="fab fa-instagram">
-          <FontAwesomeIcon icon={faInstagram} />
-        </i>
-        <i className="fab fa-linkedin-in">
-          <FontAwesomeIcon icon={faLinkedinIn} />
-        </i>
+        <FontAwesomeIcon icon={faFacebookF} className="fab" />
+        <FontAwesomeIcon icon={faTwitter} className="fab" />
+        <FontAwesomeIcon icon={faInstagram} className="fab" />
+        <FontAwesomeIcon icon={faLinkedinIn} className="fab" />
       </div>
 
       <p>
-        Made with{" "}
-        <i className="far fa-heart">
-          <FontAwesomeIcon icon={faHeart} />
-        </i>{" "}
-        by SSK
+        Made with <FontAwesomeIcon icon={faHeart} className="fa-heart" /> by SSK
       </p>
     </section>
   );

@@ -26,47 +26,32 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/">
-        <a href="/">
-          <img src={logo} alt="" />
-        </a>
+        <img src={logo} alt="" />
       </Link>
 
-      <div className="nav-links" id="navLinks">
-        <i className="fas fa-times" onClick={hideMenu}>
-          <FontAwesomeIcon icon={faTimes} onClick={hideMenu} />
-        </i>
+      <div className="nav-links" id="navLinks" ref={navLinkRef}>
+        <FontAwesomeIcon icon={faTimes} className="fas" onClick={hideMenu} />
+
         <ul>
           <li>
-            <Link to="/">
-              <a href="/">HOME</a>
-            </Link>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <Link to="/about">
-              <a href="/about">ABOUT</a>
-            </Link>
+            <Link to="/about">ABOUT</Link>
           </li>
           <li>
-            <Link to="/course">
-              <a href="/course">COURSE</a>
-            </Link>
+            <Link to="/course">COURSE</Link>
           </li>
           <li>
-            <Link to="/blog">
-              <a href="/blog">BLOG</a>
-            </Link>
+            <Link to="/blog">BLOG</Link>
           </li>
           <li>
-            <Link to="/contact">
-              <a href="/contact">CONTACT</a>
-            </Link>
+            <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
       </div>
 
-      <i className="fas fa-bars" onClick={showMenu}>
-        <FontAwesomeIcon icon={faBars} onClick={showMenu} />
-      </i>
+      <FontAwesomeIcon icon={faBars} className="fas" onClick={showMenu} />
     </nav>
   );
 };

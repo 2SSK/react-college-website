@@ -9,12 +9,12 @@
 }
 
 .text-box h1 {
-  font-size: 62px;
+  font-size: 5.2rem;
 }
 
 .text-box p {
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 1.3rem;
   color: #fff;
 }
 
@@ -24,7 +24,7 @@
   color: #fff;
   border: 1px solid #fff;
   padding: 12px 34px;
-  font-size: 13px;
+  font-size: 1.2rem;
   background: transparent;
   position: relative;
   cursor: pointer;
@@ -33,11 +33,11 @@
 .hero-btn:hover {
   border: 1px solid #f44336;
   background: #f44336;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 @media (max-width: 768px) {
   .text-box h1 {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }

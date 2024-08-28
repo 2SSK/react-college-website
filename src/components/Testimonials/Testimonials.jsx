@@ -21,21 +21,16 @@ const Testimonials = () => {
               growth.&quot;
             </p>
             <h3>Christine Berkley</h3>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
+            <div className="stars">
+              {[...Array(4)].map((_, i) => (
+                <FontAwesomeIcon
+                  key={i}
+                  icon={faStar}
+                  className="filled-star"
+                />
+              ))}
+              <FontAwesomeIcon icon={faStar} className="empty-star" />
+            </div>
           </div>
         </div>
 
@@ -48,21 +43,15 @@ const Testimonials = () => {
               exceptional! &quot;
             </p>
             <h3>David Byer</h3>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
-            <i className="fas fa-star">
-              <FontAwesomeIcon icon={faStar} />
-            </i>
+            <div className="stars">
+              {[...Array(5)].map((_, i) => (
+                <FontAwesomeIcon
+                  key={i}
+                  icon={faStar}
+                  className="filled-star"
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>
